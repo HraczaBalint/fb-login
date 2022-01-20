@@ -1,7 +1,7 @@
 import React from 'react';
 import FacebookLogin from 'react-facebook-login';
 
-export default class MyComponent extends React.Component {
+export default class Login extends React.Component {
 
     constructor(props){
         super(props)
@@ -46,7 +46,7 @@ export default class MyComponent extends React.Component {
         else{
             return(
                 <>
-                    <img src={picture.url} alt={data.name} />
+                    <img src={picture.url} alt={data.name}/>
                     <h2>{data.first_name}</h2>
                 </>
             )
